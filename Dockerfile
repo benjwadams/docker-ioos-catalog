@@ -1,4 +1,4 @@
-FROM lukecampbell/ckan
+FROM ckan/ckan
 
 # Install git
 RUN DEBIAN_FRONTEND=noninteractive apt-get update -y
